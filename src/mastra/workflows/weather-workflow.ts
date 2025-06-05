@@ -96,7 +96,7 @@ const fetchWeather = createStep({
       throw new Error('Input data not found');
     }
 
-    console.log('hi4');
+    console.log('hi71232');
 
     const geocodingUrl = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(inputData.city)}&count=1`;
     const geocodingResponse = await fetch(geocodingUrl);
