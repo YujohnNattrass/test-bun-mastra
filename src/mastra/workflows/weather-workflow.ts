@@ -149,6 +149,7 @@ const planActivities = createStep({
   execute: async ({ inputData }) => {
     const forecast = inputData;
 
+    console.log(`hi`)
     if (!forecast) {
       throw new Error('Forecast data not found');
     }
